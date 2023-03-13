@@ -143,5 +143,9 @@ public class ApplicationTests {
         Assert.assertEquals(8, list.size());
     }
 
+    @Test
+    public void testGitBranch() {
+        System.out.println("Test Git Branch");
+    }
 
 }
